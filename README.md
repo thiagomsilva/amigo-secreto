@@ -2,19 +2,19 @@
 
 ## Ferramentas utilizadas
 
-Ruby On Rails
-PostgreSQL
-Redis
-Docker
-Docker-Compose
+- Ruby On Rails
+- PostgreSQL
+- Redis
+- Docker
+- Docker-Compose
 
 ## Serviços externos utilizados
 
-Digital Ocean
-Codeship
-Sendgrid
-GoDaddy
-Cloudflare
+- Digital Ocean
+- Codeship
+- Sendgrid
+- GoDaddy
+- Cloudflare
 
 ## Bibliotecas utilizadas
 
