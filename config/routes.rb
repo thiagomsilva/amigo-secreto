@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { registrations: 'registrations' }
   mount Sidekiq::Web => '/sidekiq'
 
-  root to: 'pages#index'
+  root to: 'pages#home'
   resources :campaigns, except: [:new] do
     post 'rafle', on: :member # Exemplo: /campaigns/:id/rafle
     # post 'rafle', on: :collection # Exemplo: /campaigns/rafle
